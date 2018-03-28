@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="format-detection" content="telephone=no" />
+  <title>详情</title>
+  <link rel="stylesheet" type="text/css" href="../resources/css/frame/mui.min.css" />
+  <link rel="stylesheet" type="text/css" href="../resources/css/frame/mui.picker.min.css" />
+  <link rel="stylesheet" type="text/css" href="../resources/css/base/common.css" />
+  <link rel="stylesheet" type="text/css" href="../resources/css/frame/swiper-3.4.2.min.css" />
+  <link rel="stylesheet" type="text/css" href="../resources/css/private/date.css" />
+  <link rel="stylesheet" type="text/css" href="../resources/css/private/detail.css" />
+  <style>
+  	
+  </style>
+</head>
+<body>
+<div class="fixd-tip"></div>
+<!-- 日期弹出层 -->
+<div class="date-box" id="date-box">
+	<div class="date-con" id="date-con">
+		<div class="box-section">
+			<div class="lf zbmcs clearfixh">
+				<div class="zhang-img fl"></div>
+				<div class="fl">账期</div>
+			</div>
+			<div class="rt jfsrs"><div id="result" class="ui-alert">2018-01-22</div> </div>
+		</div>
+	</div>
+	 
+</div>
+<!-- 日期弹出层-end -->
+<div class="allbox">
+	<div class="content-bg">
+		<!--顶部信息提示-->
+		<div class="notice">
+			<div class="notice-bg"></div>
+			<div class="laba"></div>
+			<div class="close"></div>
+			<!--loop="2"-->
+			<marquee class="totice-text" direction="left" scrollamount="2px" >因数据例行维护，后返回回复回复后返回回复后返回回复回复1111111111</marquee>
+		</div>
+	  <!--	曲线图及曲线图下方卡片-->
+		<div class="linebox">
+			  <div class="line-title clearfixh">
+					<div class="shu"></div>
+					<div class="title-text">总体移网当日新发展用户数</div>
+					<p class="time-btn" id="date-pick"><span class="time-rili">2017-01-11</span></p>
+				</div>
+			
+				<!--曲线图-->
+				<div id="line1" class="line1">
+					
+				</div>
+				<div class="line-card-box">
+					  <ul class="line-card clearfixh">
+						 	<li>
+						 		<p>32</p>
+						 		<span>当期值(万元)</span>
+						 	</li>
+						 	<li>
+						 		<p>163</p>
+						 		<span>本月累计(万元)</span>
+						 	</li>
+						 	<li>
+						 		<p class="card-updown clearfixh up"><span >23.13</span><span ></span></p>
+						 		<span class="uup">累计环比(%)</span>
+						 	</li>
+						</ul>
+						
+						<div class="hidedetail">
+								<div class="line2"></div>
+							  <p class="hd-text">隐藏详情</p>
+						</div>
+				</div>
+				
+		</div>
+		<!--	曲线图及曲线图下方卡片--end-->
+		<!--曲线下方所有内容-->
+		<div class="content-box">
+		   	<!--柱状图区-->
+	    	<div class="lei-chart">
+					   <div class="lei-title clearfixh">
+					   	   <p class="shu"></p>
+					   	   <p class="lei-title-text">本月区县累计</p>
+					   </div>
+			    	 <div class="zhuchart swiper-container">
+			    	 		<div class="swiper-wrapper">
+					   	   		<div id="bar1" class="bar1 swiper-slide"></div>
+					   	   		<div id="bar2" class="bar1 swiper-slide"></div>
+					   	   </div>
+					   	   <div class="swiper-pagination"></div>
+					   </div>   
+				</div>
+			
+			<!--柱状图下方每个模块-->
+			<div class="each-moudle">
+				<!--小计-->
+
+		  	<div class="xiaoji">
+					 <div class="xiaoji-top clearfixh"> 
+					 		<p class="point"></p>
+					 		<p>区县小计</p>
+					 </div>
+					 <ul class="xiaoji-con clearfixh">
+					 		<li>
+					 			 <div class="xiao-value">8,987</div>
+					 			 <div class="xiao-danwei">当期值(万元)</div>
+					 		</li>
+					 		<li>
+					 			 <div class="xiao-value">40,127</div>
+					 			 <div class="xiao-danwei">当期值(万元)</div>
+					 		</li>
+					 		<li>
+					 	    <div class="circle1">
+					 	    		<div class="second circle">
+								        <p class="yellow">0.63</p>
+								        <span>累计环比(%)</span>
+								    </div>
+					 	    </div>
+					 		
+					 		</li>
+					 </ul>
+				</div>
+			
+				<!--小计--end-->
+				<!--table-start-->
+				<div class="data-table">
+					<div class="table-con">
+						<div class="table-title clearfixh">
+								<span class="date-icon">营销单元</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计值</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>累计环比</li>
+										<li>(%)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计值</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>累计环比</li>
+										<li>(%)</li>
+									</ul>
+									<div class="fl t-updown t-up"></div>
+								</span>
+						</div>
+						<ul class="table-con-val">
+							
+							<li class="clearfixh">
+								<span class="">碑林区</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span class="uup">环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">2</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span class="uup">环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">3</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span class="ddown">环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">4</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span class="ddown">环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">5</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span>环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+						
+						</ul>
+					</div>
+					<div class="click-hide">
+						<img src="../resources/img/shou-s.png" />
+					</div>
+				</div>
+				<!--table-end-->
+			</div>
+		  <!--柱状图下方每个模块----end-->
+		  <!--柱状图下方每个模块-->
+			<div class="each-moudle">
+				<!--小计-->
+		  	<div class="xiaoji">
+					 <div class="xiaoji-top clearfixh"> 
+					 		<p class="point"></p>
+					 		<p>区县小计</p>
+					 </div>
+					 <ul class="xiaoji-con clearfixh">
+					 		<li>
+					 			 <div class="xiao-value">8,987</div>
+					 			 <div class="xiao-danwei">当期值(万元)</div>
+					 		</li>
+					 		<li>
+					 			 <div class="xiao-value">40,127</div>
+					 			 <div class="xiao-danwei">当期值(万元)</div>
+					 		</li>
+					 		<li>
+					 	    <div class="circle1">
+					 	    		<div class="second circle">
+								        <p class="yellow">0.53</p>
+								        <span>累计环比(%)</span>
+								    </div>
+					 	    </div>
+					 		
+					 		</li>
+					 </ul>
+				</div>
+				<!--小计--end-->
+				<!--table-start-->
+				<div class="data-table">
+					<div class="table-con">
+						<div class="table-title clearfixh">
+								<span class="date-icon">营销单元</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计值</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>累计环比</li>
+										<li>(%)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>本月累计值</li>
+										<li>(万元)</li>
+									</ul>
+									<div class="fl t-updown "></div>
+								</span>
+								<span class="clearfixh">
+									<ul class="fl val-box">
+										<li>累计环比</li>
+										<li>(%)</li>
+									</ul>
+									<div class="fl t-updown t-up"></div>
+								</span>
+						</div>
+						<ul class="table-con-val">
+							
+							<li class="clearfixh">
+								<span class="">碑林区</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span class="uup">环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">2</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span class="uup">环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">3</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span class="ddown">环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">4</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span>环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<li class="clearfixh">
+								<span class="">5</span>
+								<span>日发展</span>
+								<span>同比</span>
+								<span>环比</span>
+								<span>同比</span>
+								<span>环比</span>
+							</li>
+							<!--<li class="clearfixh">
+							<span class="date-icon">日期</span>
+							<span>日发展</span>
+							<span>同比</span>
+							<span>环比</span>
+						</li>-->
+						</ul>
+					</div>
+					<div class="click-hide">
+						<img src="../resources/img/shou-s.png" />
+					</div>
+				</div>
+				<!--table-end-->
+			</div>
+		  <!--柱状图下方每个模块----end-->
+		</div>
+
+		
+	</div>
+</div>
+<script type="text/javascript" src="../resources/js/base/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="../resources/js/frame/swiper-3.4.2.min.js"></script>
+
+<script type="text/javascript" src="../resources/js/frame/mui.js"></script>
+<script type="text/javascript" src="../resources/js/frame/mui.picker.js"></script>
+<script type="text/javascript" src="../resources/js/frame/mui.dtpicker.js"></script>
+<script type="text/javascript" src="../resources/js/base/echarts.common.min.js"></script>
+<script type="text/javascript" src="../resources/js/frame/circle-progress.js"></script>
+<script type="text/javascript" src="../resources/js/private/detail_chartoption.js"></script>
+<script type="text/javascript" src="../resources/js/private/date.js"></script>
+<script type="text/javascript" src="../resources/js/private/detail.js"></script>
+
+</body>
+</html>

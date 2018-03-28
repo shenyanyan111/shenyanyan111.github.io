@@ -1,0 +1,142 @@
+/*日历mui样式覆盖*/
+/*mui样式覆盖*/
+.mui-dtpicker-title h5{
+	font-size: 16px;
+}
+.mui-pciker-list li{
+	font-size:16px
+}
+.mui-dtpicker-header button{
+	font-size:14px;
+	padding:4px 10px
+}
+
+.mui-dtpicker-header{
+	/*display:none*/
+	background:#F1F8FF ;
+}
+.mui-btn-blue{
+	background: #1E9BF3;
+	border:1px solid #1E9BF3;
+}
+.mui-dtpicker, .mui-poppicker{
+	background: #F1F8FF;
+}
+.mui-dtpicker.mui-active{
+	width:3.16rem;
+}
+.mui-dtpicker,.mui-poppicker{
+	left:inherit;
+	
+}
+.mui-dtpicker-header div:last-child{
+	width: 2.86rem;
+	height:0.45rem;
+	float: none;
+	background: url("../../img/done.png") 0 0 no-repeat;
+	background-size: 2.86rem 0.45rem;
+	border:none;
+	margin: 0.2rem 0 0 0.17rem ;
+}
+
+.box{
+	width: 100%;
+	position: fixed;
+	left:0px;
+	bottom:200px;
+	background-color: #fff;
+	z-index: 5000;
+}
+.mui-dtpicker{
+    top:0.44rem;
+	
+}
+.jfsr{
+	font-size: 24px !important;
+	color:#FF5B3F;
+	
+}
+.ui-alert{
+	font-size:0.14rem;
+	color:#16a0f6;
+	line-height: 0.14rem;
+}
+.jfsr b{
+	font-size: 24px;
+}
+.box-section{
+	overflow: hidden;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	padding-top: 0.14rem;
+	font-size:0.06rem;
+/*			padding-bottom: 13px !important;*/
+	border-bottom: 1px solid #eee;
+	height:0.44rem
+}
+.zbmcs{
+	/*padding-right: 14px;*/
+	font-size: 16px !important;
+	color:#888;
+	padding-bottom:8px;
+	/*background: url("../../../resources/img/ico_date@2x.png") no-repeat ;*/
+}
+.zbmcs div:last-child{
+	padding-left:0.04rem;
+	font-size:0.12rem;
+	color:#888888;
+	line-height: 0.16rem;
+	
+}
+.jfsrs{
+	font-size: 16px !important;
+	color:#18A1F6;
+}
+.mui-dtpicker-header button{
+	margin-top:6px
+}
+.mui-dtpicker-header button:first-child{
+	display: none;
+}
+.box .mui-dtpicker-header{
+	display: block;
+}
+.zhang-img{
+	width: 0.16rem;
+	height:0.16rem;
+	background: url('../../img/xzzq.png') 0 0 no-repeat;
+	background-size:0.16rem 0.16rem;
+	
+}
+.date-box{
+	width: 3.4rem;
+	height:100%;
+	background: #F1F8FF;
+	position:absolute;
+	z-index:1000;
+	right:-3.16rem;
+	display: none;
+}
+.date-con{
+	width: 94%;
+	margin-left:3%;
+	height:2.44rem;
+	background: #fff;
+	margin-top: 0.2rem;
+	position:relative;
+	border-radius:0.05rem
+}
+.mui-dtpicker{
+	position:absolute
+}
+.mui-pciker-rule-ft{
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee
+}
+.fl{
+	float:left;
+}
+.rt{
+	float: right
+}
+/*日历mui样式覆盖 ---end*/
